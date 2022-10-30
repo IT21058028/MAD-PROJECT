@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "84203451655",
+    "project_id": "movie-seat-145db",
+    "storage_bucket": "movie-seat-145db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84203451655:android:0addecf6bd842d7c8001a2",
+        "android_client_info": {
+          "package_name": "com.example.movie_seat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84203451655-d2ghfoejkupj1j0sf6abaanrtvhhe8d1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLRRQ3xSGzYEnRFJgV8chakJ1sBfGOHQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84203451655-d2ghfoejkupj1j0sf6abaanrtvhhe8d1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
