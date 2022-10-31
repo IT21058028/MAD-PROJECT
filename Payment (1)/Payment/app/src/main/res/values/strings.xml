@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Payment</string>
+    <string name="IT21108068">Payment Details</string>
+    <string name="IT21108069">Ticket Type :-</string>
+    <string name="it21108060">Gold Class</string>
+    <string name="IT21108061">No Of Seats :-</string>
+    <string name="IT21108062">Seat Numbers :-</string>
+    <string name="IT211">Seat Numbers :-</string>
+    <string name="IT123" />
+    <string name="IT21">Next</string>
+    <string name="it45">Total Amount :-</string>
+    <string name="it67">Payer Details</string>
+    <string name="iy8">Full Name :-</string>
+    <string name="iu567">Address :-</string>
+    <string name="ip789">E-mail :-</string>
+    <string name="ip34">Contact Number :-</string>
+    <string name="pl94">Next</string>
+    <string name="tt78">back</string>
+    <string name="p25">Payment Method</string>
+    <string name="jy00">Card Number</string>
+    <string name="fg40">Card Name</string>
+    <string name="mm67">Expire Date</string>
+    <string name="iu99">CVC</string>
+    <string name="gh00">back</string>
+    <string name="jk55">cancel</string>
+    <string name="urb67">pay</string>
+    <string name="kl68">Details Table</string>
+    <string name="ss57">Details</string>
+    <string name="fy67">"Movie Name "</string>
+    <string name="du55">"Movie Name "</string>
+    <string name="ff69">Seat Number</string>
+    <string name="cc33">Number Of Tickets</string>
+    <string name="fg">Ticket Type :-</string>
+    <string name="ff41">Gold Class</string>
+    <string name="bbc48">Total :-</string>
+    <string name="vv67">Receipt #001</string>
+    <string name="gu87">Payment Success</string>
+    <string name="fy88">Update</string>
+    <string name="rr90">verify</string>
+
+
+</resources>

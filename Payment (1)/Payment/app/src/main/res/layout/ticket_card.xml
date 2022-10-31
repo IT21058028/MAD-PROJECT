@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="12dp"
+    android:layout_margin="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:layout_marginVertical="6dp"
+        android:orientation="vertical"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Name : "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="18dp" android:textColor="@color/black" android:text="456646551451" android:id="@+id/tvMovieName"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            >
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:textSize="20dp" android:textColor="@color/black" android:text="Seat Number : "/>
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="18dp" android:textColor="@color/black" android:text="456646551451" android:id="@+id/tvSeatNumber"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            >
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:textSize="20dp" android:textColor="@color/black" android:text="Number of tickets : "/>
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="18dp" android:textColor="@color/black" android:text="456646551451" android:id="@+id/tvNumberOfTickets"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            >
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:textSize="20dp" android:textColor="@color/black" android:text="Ticket type : "/>
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="18dp" android:textColor="@color/black" android:text="456646551451" android:id="@+id/tvTicketType"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            >
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textStyle="bold" android:textSize="20dp" android:textColor="@color/black" android:text="Total : "/>
+            <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:textSize="18dp" android:textColor="@color/black" android:text="456646551451" android:id="@+id/tvTotalAmount"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:orientation="horizontal">
+            >
+
+            <Button
+                android:id="@+id/deleteTicketButton"
+                android:layout_width="100dp"
+                android:layout_height="54dp"
+                android:layout_marginHorizontal="4dp"
+                android:backgroundTint="@android:color/holo_red_dark"
+                android:text="Delete"
+                android:textColor="@color/white" />
+
+            <Button
+                android:id="@+id/verifyTicketButton"
+                android:layout_width="105dp"
+                android:layout_height="54dp"
+                android:layout_marginHorizontal="4dp"
+                android:backgroundTint="@android:color/holo_green_dark"
+                android:text="Edit"
+                android:textColor="@color/white" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
